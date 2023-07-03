@@ -1,0 +1,66 @@
+*{
+    padding:0px;
+    margin:0px;
+    text-decoration: none;
+}
+header{
+    background-color: black;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+header img{
+    margin:5px;
+}
+
+.botones{
+    display:flex;
+    width:500px;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+
+.boton{
+    margin:10px;
+    color:aliceblue;
+}
+
+
+main{
+    background-image: url(../Maqueta/Img/login.jpeg);
+    height: calc(100vh - 70px);
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja{
+    padding:20px;
+    width:400px;
+    height:500px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    border:1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.caja input{
+    border-radius: 10px;
+    margin:5px 0px;
+    width:300px;
+}
+
+/**inicio**/
+
+.fondo_inicio{
+    background-image: url(./Img/WhatsApp\ Image\ 2023-07-02\ at\ 11.19.21\ PM.jpeg);
+    width:100%;
+    height:calc(100vh - 70px);
+    
+}
