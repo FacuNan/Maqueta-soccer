@@ -28,7 +28,7 @@ header img{
 
 
 .fondo_login{
-    background-image: url(./Img/WhatsApp\ Image\ 2023-07-02\ at\ 11.19.21\ PM.jpeg);
+    background-image: url(./Img/login.jpeg);
     height: calc(100vh - 70px);
     background-size: cover;
     display:flex;
