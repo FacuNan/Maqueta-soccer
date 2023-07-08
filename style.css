@@ -28,7 +28,7 @@ header img{
 
 
 main{
-    background-image: url('../Maqueta/Img/login.jpeg');
+    background-image: url(../Maqueta/Img/login.jpeg);
     height: calc(100vh - 70px);
     background-size: cover;
     display:flex;
