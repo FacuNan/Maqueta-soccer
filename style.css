@@ -28,7 +28,7 @@ header img{
 
 
 main{
-    background-image: url(../Maqueta/Img/login.jpeg);
+    background-image: url('../Maqueta/Img/login.jpeg');
     height: calc(100vh - 70px);
     background-size: cover;
     display:flex;
@@ -60,6 +60,9 @@ main{
 
 .fondo_inicio{
     background-image: url(./Img/WhatsApp\ Image\ 2023-07-02\ at\ 11.19.21\ PM.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width:100%;
     height:calc(100vh - 70px);
     
